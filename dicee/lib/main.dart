@@ -24,8 +24,8 @@ class DiceScreen extends StatefulWidget {
 }
 
 class _DiceScreenState extends State<DiceScreen> {
-  int leftDice = 1; // Giá trị xúc xắc trái
-  int rightDice = 1; // Giá trị xúc xắc phải
+  int leftDice = 1;
+  int rightDice = 1;
 
   void rollDice() {
     setState(() {
